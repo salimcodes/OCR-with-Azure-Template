@@ -1,9 +1,13 @@
 # Optical-Character-Recognition-with-Azure
 
 There are ** steps in this demo 
+
+- Edit the `main.py` file to Get Configuration Settings and Menu for text reading functions
 - Provision a Cognitive Services resource
 - Prepare to use the Computer Vision SDK
-- 
+
+
+## Edit the `main.py` file to Get Configuration Settings and Menu for text reading functions
 
 ## Provision a Cognitive Services resource
 
