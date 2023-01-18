@@ -1,7 +1,10 @@
 # Optical-Character-Recognition-with-Azure
 
-There are ** steps in this demo 
+There are six steps in this exercise;
 
+- Create your repository using this one as a template
+- Clone that repository locally
+- Install the dependencies on the `requirements.txt`
 - Edit the `main.py` file to Get Configuration Settings and Menu for text reading functions
 - Provision a Cognitive Services resource
 - Prepare to use the Computer Vision SDK
