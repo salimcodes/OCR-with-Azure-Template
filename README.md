@@ -119,6 +119,7 @@ Examine the code you added to the GetTextRead function. It submits a request for
 
 Save your changes and return to the integrated terminal for the read-text folder, and enter the following command to run the program:
 
+
 ```
 python main.py
 ```
