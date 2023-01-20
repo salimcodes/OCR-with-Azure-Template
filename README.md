@@ -49,6 +49,25 @@ Open the Azure portal at `https://portal.azure.com`, and sign in using the Micro
 
 ## Prepare to use the Computer Vision SDK
 
+-Create a virtual environment named `mypython`.
+
+```
+# Windows
+python -m venv mypython
+
+# macOS or Linux
+python -m venv mypython
+```
+
+- Activate the created virtual environment
+```
+# Windows
+mypython\Scripts\activate
+
+#macOS or Linux
+source ./mypython/bin/activate
+```
+
 - Install the Computer Vision SDK package by pip installing the content of the `requirements.txt` file
 
 ```
