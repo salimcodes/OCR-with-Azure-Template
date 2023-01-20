@@ -105,8 +105,6 @@ with open(image_file, mode="rb") as image_data:
         for page in read_results.analyze_result.read_results:
             for line in page.lines:
                 print(line.text)
-                # Uncomment the following line if you'd like to see the bounding box 
-                #print(line.bounding_box)
 ```
 
 Examine the code you added to the GetTextRead function. It submits a request for a read operation, and then repeatedly checks status until the operation has completed. If it was successful, the code processes the results by iterating through each page, and then through each line.
