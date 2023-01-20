@@ -48,13 +48,14 @@ Open the Azure portal at `https://portal.azure.com`, and sign in using the Micro
 
 
 ## Prepare to use the Computer Vision SDK
-- Open an integrated terminal. 
 
 - Install the Computer Vision SDK package by pip installing the content of the `requirements.txt` file
 
 ```
 pip install -r requirements.txt 
 ```
+
+Open the configuration file, `.env` and update the configuration values it contains to reflect the endpoint and an authentication key for your cognitive services resource. 
 
 Open the code file and at the top, under the existing namespace references, find the comment Import namespaces. Then, under this comment, add the following language-specific code to import the namespaces you will need to use the Computer Vision SDK:
 
@@ -64,7 +65,6 @@ from azure.cognitiveservices.vision.computervision.models import OperationStatus
 from msrest.authentication import CognitiveServicesCredentials
 ```
 
-Open the configuration file, `.env` and update the configuration values it contains to reflect the endpoint and an authentication key for your cognitive services resource. 
 
 Save your changes.
 
