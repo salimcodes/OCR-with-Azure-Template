@@ -1,12 +1,10 @@
 # Optical-Character-Recognition-with-Azure
 
-There are seven steps in this exercise;
+There are six steps in this exercise;
 
 - Create your repository using this one as a template
 
 - Clone that repository locally
-
-- Install the dependencies on the `requirements.txt`
 
 - Provision a Cognitive Services resource on Azure portal
 
@@ -21,10 +19,6 @@ There are seven steps in this exercise;
 To be seen live on the workshop
 
 ## Clone that repository locally
-
-To be seen live on the workshop
-
-## Install the dependencies on the `requirements.txt`
 
 To be seen live on the workshop
 
