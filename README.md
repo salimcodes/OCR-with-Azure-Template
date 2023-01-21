@@ -74,9 +74,11 @@ source ./mypython/bin/activate
 pip install -r requirements.txt 
 ```
 
-Open the configuration file, `.env` and update the configuration values it contains to reflect the endpoint and an authentication key for your cognitive services resource. 
+- Open the configuration file, `.env` and update the configuration values it contains to reflect the endpoint and an authentication key for your cognitive services resource. 
 
-Open the code file and at the top, under the existing namespace references, find the comment Import namespaces. Then, under this comment, add the following language-specific code to import the namespaces you will need to use the Computer Vision SDK:
+- Open the code file and at the top, under the existing namespace references, find the comment Import namespaces. 
+
+- Then, under this comment, add the following language-specific code to import the namespaces you will need to use the Computer Vision SDK:
 
 ```
 from azure.cognitiveservices.vision.computervision import ComputerVisionClient
@@ -91,7 +93,7 @@ Save your changes.
 
 To be seen live on the workshop
 
-## - Use the Read API to read text from an image, a document and handwritten text
+## Use the Read API to read text from an image, a document and handwritten text
 
 The Read API uses a newer text recognition model and generally performs better for larger images that contain a lot of text, but will work for any amount of text. It also supports text extraction from .pdf files, and can recognize both printed text and handwritten text in multiple languages.
 
@@ -101,7 +103,7 @@ The Read API uses an asynchronous operation model, in which a request to start t
 
 - In the read-text/images folder, click on Lincoln.jpg to view the file that your code will process.
 
-Back in the code file in Visual Studio Code, find the GetTextRead function, and under the existing code that prints a message to the console, add the following code:
+- Back in the code file in Visual Studio Code, find the GetTextRead function, and under the existing code that prints a message to the console, add the following code:
 
 ```
 # Use Read API to read text in image
