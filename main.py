@@ -9,13 +9,13 @@ from matplotlib import pyplot as plt
 def main():
     global cv_client
 
-# Get Configuration Settings
+    # Get Configuration Settings
 
-# Authenticate Computer Vision client
-credential = CognitiveServicesCredentials() 
-cv_client = ComputerVisionClient()
+    # Authenticate Computer Vision client
+    credential = CognitiveServicesCredentials() 
+    cv_client = ComputerVisionClient()
 
-# Menu for text reading functions
+    # Menu for text reading functions
 
 
 
