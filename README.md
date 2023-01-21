@@ -49,7 +49,7 @@ Open the Azure portal at `https://portal.azure.com`, and sign in using the Micro
 
 ## Prepare to use the Computer Vision SDK
 
--Create a virtual environment named `mypython`.
+- Create a virtual environment named `mypython`.
 
 ```
 # Windows
