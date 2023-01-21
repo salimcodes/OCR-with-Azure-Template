@@ -103,7 +103,7 @@ The Read API uses an asynchronous operation model, in which a request to start t
 
 - In the read-text/images folder, click on Lincoln.jpg to view the file that your code will process.
 
-- Back in the code file in Visual Studio Code, find the GetTextRead function, and under the existing code that prints a message to the console, add the following code:
+- Back in the code file in Visual Studio Code, find the `GetTextRead` function, and under the existing code that prints a message to the console, add the following code:
 
 ```
 # Use Read API to read text in image
